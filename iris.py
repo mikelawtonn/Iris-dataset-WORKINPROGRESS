@@ -53,7 +53,7 @@ df['SepalLengthCm'].hist()
 df['SepalWidthCm'].hist()
 
 
-#Scatter plots to further help determine which attributes are best to seperate the classes.
+#Scatter plots to further help determine which attributes are best to separate the classes.
 
 #Scatter plot for Sepal Length vs Sepal Width. The scatter plot suggests that Sepal Length + Sepal Width attributes
 #may help distinguish between Setosa and the other two classes but it would then be difficult to classify the other
@@ -75,7 +75,7 @@ plt.ylabel("Sepal Width")
 #legend for the plot
 plt.legend()
 
-#Scatter plot for Petal Length vs Petal Width. This combination of attributes looks like it could help seperate all
+#Scatter plot for Petal Length vs Petal Width. This combination of attributes looks like it could help separate all
 #classes.
 
 colors = ['red', 'orange', 'blue']
@@ -90,7 +90,7 @@ plt.xlabel("Petal Length")
 plt.ylabel("Petal Width")
 plt.legend()
 
-#Scatter plot for Petal Width vs Sepal Width. This combination of attributes looks like it could help seperate all
+#Scatter plot for Petal Width vs Sepal Width. This combination of attributes looks like it could help separate all
 #classes.
 
 
